@@ -1,1 +1,166 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mi Página Personal</title>
 
+    <style>
+      /* Estilos CSS pueden ser agregados aquí */
+      /* Estilos generales */
+
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+      }
+
+      header,
+      nav {
+        background-color: #000000c9;
+        color: white;
+        padding: 20px;
+        width: 100vw;
+      }
+      header {
+        background-color: #000000c9;
+      }
+
+      nav ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+      }
+
+      nav ul li {
+        display: inline;
+        margin-right: 20px;
+      }
+
+      nav ul li a {
+        color: white;
+        text-decoration: none;
+      }
+
+      section {
+        padding: 20px;
+        margin-bottom: 0px;
+      }
+
+      footer {
+        background-color: #333333;
+
+        color: #dce0ea;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        text-align: center;
+      }
+
+      /* Estilos específicos */
+
+      h1 {
+        margin: 0;
+      }
+
+      h2 {
+        margin-top: 0;
+      }
+
+      img {
+        max-width: 20%;
+        height: auto;
+        display: block;
+      }
+      #imageHeader {
+        background-color: #333333;
+        width: 100vw;
+        padding-bottom: 2rem;
+      }
+      #content {
+        display: flex;
+        flex-direction: row;
+      }
+      #bibliografia {
+        background-color: rgb(255, 240, 158);
+        height: auto;
+      }
+      #habilidades {
+        background-color: pink;
+        height: auto;
+      }
+      #proyectos {
+        background-color: skyblue;
+        height: auto;
+      }
+      #contacto {
+        background-color: gray;
+        height: auto;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <img
+        id="imageHeader"
+        src="https://crai.upeu.edu.pe/wp-content/uploads/2024/03/logo-upeu-white-scaled-1.png"
+        alt="Imagen de Habilidades"
+      />
+      <h1>Mi Página Personal</h1>
+    </header>
+    <nav>
+      <ul>
+        <li id="link"><a href="#bibliografia">Bibliografía</a></li>
+        <li id="link"><a href="#habilidades">Habilidades</a></li>
+        <li id="link"><a href="#proyectos">Proyectos</a></li>
+        <li id="link"><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+    <div id="contend">
+      <section id="bibliografia">
+        <h2>Bibliografía</h2>
+        <p>
+          Aquí puedes incluir información sobre tu formación académica y
+          experiencias relevantes.
+        </p>
+      </section>
+      <section id="habilidades">
+        <h2>Habilidades</h2>
+        <ul>
+          <li>Habilidad 1</li>
+          <li>Habilidad 2</li>
+          <li>Habilidad 3</li>
+          <!-- Añade más habilidades según sea necesario -->
+        </ul>
+        <img
+          src="https://upeu.edu.pe/wp-content/uploads/2022/04/logo-upeu-dark-svg.svg"
+          alt="Imagen de Habilidades"
+        />
+      </section>
+      <section id="proyectos">
+        <h2>Proyectos</h2>
+        <p>Lista de proyectos realizados:</p>
+        <ul>
+          <li>Proyecto 1</li>
+          <li>Proyecto 2</li>
+          <li>Proyecto 3</li>
+          <!-- Añade más proyectos según sea necesario -->
+        </ul>
+        <img src="https://fullmoms.wordpress.com/wp-content/uploads/2015/07/peru-letras.jpg">
+      </section>
+      <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Puedes contactarme a través de:</p>
+        <ul>
+          <li>Email: tuemail@example.com</li>
+          <li>Teléfono: +123456789</li>
+          <!-- Puedes añadir más formas de contacto si lo deseas -->
+        </ul>
+      </section>
+    </div>
+    <footer>
+      <p>&copy; 2024 Marizol</p>
+    </footer>
+  </body>
+</html>
